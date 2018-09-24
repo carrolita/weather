@@ -1,0 +1,25 @@
+body, html {
+  height: 100%;
+}
+
+.text {
+  font-size: 38px;
+  color: white;
+  background-color: black;
+  background-color: rgba(26,26,26,.8);
+}
+
+.container {
+    background-image: url("images/GamlaStan.jpg");
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 100%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
